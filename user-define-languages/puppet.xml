@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="puppet" ext="pp" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="2" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="yes" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">:</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">;</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">class&#x000D;&#x000A;define&#x000D;&#x000A;if&#x000D;&#x000A;elsif&#x000D;&#x000A;else&#x000D;&#x000A;epp&#x000D;&#x000A;fail</Keywords>
+            <Keywords name="Keywords2">augeas&#x000D;&#x000A;computer&#x000D;&#x000A;cron&#x000D;&#x000A;exec&#x000D;&#x000A;file&#x000D;&#x000A;filebucket&#x000D;&#x000A;group&#x000D;&#x000A;host&#x000D;&#x000A;interface&#x000D;&#x000A;k5login&#x000D;&#x000A;macauthorization&#x000D;&#x000A;mailalias&#x000D;&#x000A;maillist&#x000D;&#x000A;mcx&#x000D;&#x000A;mount&#x000D;&#x000A;nagios_command&#x000D;&#x000A;nagios_contact&#x000D;&#x000A;nagios_contactgroup&#x000D;&#x000A;nagios_host&#x000D;&#x000A;nagios_hostdependency&#x000D;&#x000A;nagios_hostescalation&#x000D;&#x000A;nagios_hostextinfo&#x000D;&#x000A;nagios_hostgroup&#x000D;&#x000A;nagios_service&#x000D;&#x000A;nagios_servicedependency&#x000D;&#x000A;nagios_serviceextinfo&#x000D;&#x000A;nagios_servicegroup&#x000D;&#x000A;nagios_timeperiod&#x000D;&#x000A;notify&#x000D;&#x000A;package&#x000D;&#x000A;resources&#x000D;&#x000A;router&#x000D;&#x000A;schedule&#x000D;&#x000A;scheduled_task&#x000D;&#x000A;selboolean&#x000D;&#x000A;selmodule&#x000D;&#x000A;service&#x000D;&#x000A;ssh_authorized_key&#x000D;&#x000A;sshkey&#x000D;&#x000A;stage&#x000D;&#x000A;tidy&#x000D;&#x000A;user&#x000D;&#x000A;vlan&#x000D;&#x000A;yumrepo&#x000D;&#x000A;zfs&#x000D;&#x000A;zone&#x000D;&#x000A;zpool</Keywords>
+            <Keywords name="Keywords3">alias&#x000D;&#x000A;onlyif&#x000D;&#x000A;unless&#x000D;&#x000A;audit&#x000D;&#x000A;before&#x000D;&#x000A;consime&#x000D;&#x000A;export&#x000D;&#x000A;loglevel&#x000D;&#x000A;noop&#x000D;&#x000A;require&#x000D;&#x000A;subscribe&#x000D;&#x000A;tag&#x000D;&#x000A;ensure&#x000D;&#x000A;name&#x000D;&#x000A;assumeyes&#x000D;&#x000A;bandwidth&#x000D;&#x000A;baseurl&#x000D;&#x000A;cost&#x000D;&#x000A;deltarpm_metadata_percentage&#x000D;&#x000A;deltarpm_percentage&#x000D;&#x000A;descr&#x000D;&#x000A;enabled&#x000D;&#x000A;enablegroups&#x000D;&#x000A;exclude&#x000D;&#x000A;failovermethod&#x000D;&#x000A;gpgcakey&#x000D;&#x000A;gpgcheck&#x000D;&#x000A;gpgkey&#x000D;&#x000A;http_caching&#x000D;&#x000A;include&#x000D;&#x000A;includepkgs&#x000D;&#x000A;keepalive&#x000D;&#x000A;metadata_expire&#x000D;&#x000A;metalink&#x000D;&#x000A;mirrorlist&#x000D;&#x000A;mirrorlist_expire&#x000D;&#x000A;priority&#x000D;&#x000A;protect&#x000D;&#x000A;proxy&#x000D;&#x000A;proxy_password&#x000D;&#x000A;proxy_username&#x000D;&#x000A;repo_gpgcheck&#x000D;&#x000A;retries&#x000D;&#x000A;s3_eabled&#x000D;&#x000A;skip_if_unavailable&#x000D;&#x000A;sslcacert&#x000D;&#x000A;sslclientcert&#x000D;&#x000A;sslclientkey&#x000D;&#x000A;sslverify&#x000D;&#x000A;target&#x000D;&#x000A;throttle&#x000D;&#x000A;timeout&#x000D;&#x000A;content&#x000D;&#x000A;path&#x000D;&#x000A;command&#x000D;&#x000A;enable</Keywords>
+            <Keywords name="Keywords4">present&#x000D;&#x000A;absent&#x000D;&#x000A;true&#x000D;&#x000A;false&#x000D;&#x000A;purged&#x000D;&#x000A;installed&#x000D;&#x000A;latest&#x000D;&#x000A;running</Keywords>
+            <Keywords name="Keywords5">$</Keywords>
+            <Keywords name="Keywords6">abs&#x000D;&#x000A;any2array&#x000D;&#x000A;assert_private&#x000D;&#x000A;base64&#x000D;&#x000A;basename&#x000D;&#x000A;bool2num&#x000D;&#x000A;bool2str&#x000D;&#x000A;camelcase&#x000D;&#x000A;capitalize&#x000D;&#x000A;ceiling&#x000D;&#x000A;chomp&#x000D;&#x000A;chop&#x000D;&#x000A;clamp&#x000D;&#x000A;concat&#x000D;&#x000A;convert_base&#x000D;&#x000A;count&#x000D;&#x000A;deep_merge&#x000D;&#x000A;defined_with_params&#x000D;&#x000A;delete&#x000D;&#x000A;delete_at&#x000D;&#x000A;delete_regex&#x000D;&#x000A;delete_values&#x000D;&#x000A;delete_undef_values&#x000D;&#x000A;deprecation&#x000D;&#x000A;difference&#x000D;&#x000A;dig&#x000D;&#x000A;dig44&#x000D;&#x000A;dirname&#x000D;&#x000A;dos2unix&#x000D;&#x000A;downcase&#x000D;&#x000A;empty&#x000D;&#x000A;enclose_ipv6&#x000D;&#x000A;ensure_packages&#x000D;&#x000A;ensure_resource&#x000D;&#x000A;ensure_resources&#x000D;&#x000A;fact&#x000D;&#x000A;flatten&#x000D;&#x000A;floor&#x000D;&#x000A;fqdn_rand_string&#x000D;&#x000A;fqdn_rotate&#x000D;&#x000A;fqdn_uuid&#x000D;&#x000A;get_module_path&#x000D;&#x000A;getparam&#x000D;&#x000A;getvar&#x000D;&#x000A;glob&#x000D;&#x000A;grep&#x000D;&#x000A;has_interface_with&#x000D;&#x000A;has_ip_address&#x000D;&#x000A;has_ip_network&#x000D;&#x000A;has_key&#x000D;&#x000A;hash&#x000D;&#x000A;intersection&#x000D;&#x000A;is_a&#x000D;&#x000A;is_absolute_path&#x000D;&#x000A;is_array&#x000D;&#x000A;is_bool&#x000D;&#x000A;is_domain_name&#x000D;&#x000A;is_email_address&#x000D;&#x000A;is_float&#x000D;&#x000A;is_function_available&#x000D;&#x000A;is_hash&#x000D;&#x000A;is_integer&#x000D;&#x000A;is_ip_address&#x000D;&#x000A;is_ipv6_address&#x000D;&#x000A;is_ipv4_address&#x000D;&#x000A;is_mac_address&#x000D;&#x000A;is_numeric&#x000D;&#x000A;is_string&#x000D;&#x000A;join&#x000D;&#x000A;join_keys_to_values&#x000D;&#x000A;keys&#x000D;&#x000A;length&#x000D;&#x000A;loadyaml&#x000D;&#x000A;loadjson&#x000D;&#x000A;load_module_metadata&#x000D;&#x000A;lstrip&#x000D;&#x000A;max&#x000D;&#x000A;member&#x000D;&#x000A;merge&#x000D;&#x000A;min&#x000D;&#x000A;num2bool&#x000D;&#x000A;parsejson&#x000D;&#x000A;parseyaml&#x000D;&#x000A;pick&#x000D;&#x000A;pick_default&#x000D;&#x000A;prefix&#x000D;&#x000A;pry&#x000D;&#x000A;pw_hash&#x000D;&#x000A;range&#x000D;&#x000A;regexpescape&#x000D;&#x000A;reject&#x000D;&#x000A;reverse&#x000D;&#x000A;round&#x000D;&#x000A;rstrip&#x000D;&#x000A;seeded_rand&#x000D;&#x000A;shell_escape&#x000D;&#x000A;shell_join&#x000D;&#x000A;shell_split&#x000D;&#x000A;shuffle&#x000D;&#x000A;size&#x000D;&#x000A;sprintf_hash&#x000D;&#x000A;sort&#x000D;&#x000A;squeeze&#x000D;&#x000A;str2bool&#x000D;&#x000A;str2saltedsha512&#x000D;&#x000A;strftime&#x000D;&#x000A;strip&#x000D;&#x000A;suffix&#x000D;&#x000A;swapcase&#x000D;&#x000A;time&#x000D;&#x000A;to_bytes&#x000D;&#x000A;to_json&#x000D;&#x000A;to_yaml&#x000D;&#x000A;try_get_value&#x000D;&#x000A;type3x&#x000D;&#x000A;type_of&#x000D;&#x000A;union&#x000D;&#x000A;unique&#x000D;&#x000A;unix2dos&#x000D;&#x000A;upcase&#x000D;&#x000A;uriescape&#x000D;&#x000A;validate_absolute_path&#x000D;&#x000A;validate_array&#x000D;&#x000A;validate_augeas&#x000D;&#x000A;validate_bool&#x000D;&#x000A;validate_cmd&#x000D;&#x000A;validate_domain_name&#x000D;&#x000A;validate_email_address&#x000D;&#x000A;validate_hash&#x000D;&#x000A;validate_integer&#x000D;&#x000A;validate_ip_address&#x000D;&#x000A;validate_legacy&#x000D;&#x000A;validate_numeric&#x000D;&#x000A;validate_re&#x000D;&#x000A;validate_slength&#x000D;&#x000A;validate_string&#x000D;&#x000A;validate_x509_rsa_key_pair&#x000D;&#x000A;values&#x000D;&#x000A;values_at&#x000D;&#x000A;zip</Keywords>
+            <Keywords name="Keywords7">String&#x000D;&#x000A;Integer&#x000D;&#x000A;Float&#x000D;&#x000A;Numeric&#x000D;&#x000A;Boolean&#x000D;&#x000A;Array&#x000D;&#x000A;Hash&#x000D;&#x000A;Regexp&#x000D;&#x000A;Undef&#x000D;&#x000A;Default&#x000D;&#x000A;Resource&#x000D;&#x000A;Class&#x000D;&#x000A;Scalar&#x000D;&#x000A;Collection&#x000D;&#x000A;Variant&#x000D;&#x000A;Data&#x000D;&#x000A;Pattern&#x000D;&#x000A;Enum&#x000D;&#x000A;Tuple&#x000D;&#x000A;Struct&#x000D;&#x000A;Optional&#x000D;&#x000A;Catalogentry&#x000D;&#x000A;Type&#x000D;&#x000A;Any&#x000D;&#x000A;Callable</Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06${ 07 08} 09( 10 11) 12 13 14 15 16 17 18 19 20 21, 22 23;</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="808000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="BCA20E" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="8080C0" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="C0C0C0" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="117702655" />
+            <WordsStyle name="DELIMITERS5" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="117702655" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
